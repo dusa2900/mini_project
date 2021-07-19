@@ -73,18 +73,18 @@ footer{
      color:whitesmoke;
     width: 90px;
     text-align: center;
-     border-bottom:2px solid red;
+     border-bottom:2px solid green;
  }
  .footer_info .link h4
  {
      color:whitesmoke;
     
-     border-bottom:2px solid red;
+     border-bottom:2px solid green;
  }
  .footer_info .contact h4
  {
      color:whitesmoke;
-    border-bottom:2px solid red;
+    border-bottom:2px solid green;
     
      
  }
