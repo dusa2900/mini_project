@@ -1,0 +1,45 @@
+<script type= "text/javascript">
+    $(function(){ 
+  var navMain = $(".navbar-collapse");
+
+  navMain.on("click", "a", null, function () {
+      navMain.collapse('hide');
+  });
+});
+     </script>
+<nav class="navbar nav-pills navbar-expand-sm navbar-dark sticky-top" style="background-color: black;color: white">
+  <a routerLink="/headerfooter/home" class="navbar-brand">
+      <img src="https://www.e-gadget.it/slidebox/images/1.jpg" height="50px" width="125px" alt="logo">
+  </a>
+
+  <button data-toggle="collapse" class="navbar-toggler" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div id="navbarCollapse" class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav text-warning">
+          <li>
+            <input type="text" id="myInput" style="margin-right: 900px;width: 300px;" onkeyup="myFunction()" placeholder="Search for products.." title="Type in a name">
+          </li>
+          <li class="nav-item" ><a routerLink="/headerfooter/home"  class="nav-link"><strong> Home </strong></a> </li>
+          <li class="nav-item"><a routerLink="addtocart" class="nav-link"><strong>Add to cart</strong></a></li>
+          <li class="nav-item"><a routerLink="/headerfooter/login" class="nav-link"><strong>Login</strong></a></li>
+      </ul>
+  </div>
+</nav>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+    
+    <div class="container-fluid" style="background-color: black;color: white;">
+        <div class="row">
+            <div class="col-md-4 pt-2">
+            <img src="https://www.e-gadget.it/slidebox/images/1.jpg" height="35px" width="125px" alt="logo">
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+        <span class="navbar-text justify-content-end" style="font-size: 12px; padding: 9px; ">
+                ©Copyrights 2021Techwave@pavan.All Rights Reserved.
+        </span>
+    </div>
+</div>
+</div>
