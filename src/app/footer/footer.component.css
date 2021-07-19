@@ -31,16 +31,16 @@ footer{
  {
      list-style: none;
      display: inline-block;
-     border: 1px solid white;
-     background-color: white;
-     margin-right: 15px;
-     padding: 5px 15px;
+     
+    
+     margin-right: 20px;
+    
  }
- .footer_info .div ul li:hover 
+ .footer_info .div ul li i:hover
  {  
      cursor: pointer;
-     color: white;
-     background-color: black;
+     background-color: white;
+     color: darkblue;
      
  }
  .footer_info .div_link ul li

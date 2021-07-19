@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {  BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { ResetpasswordComponent } from './LOGIN/resetpassword/resetpassword.comp
 import { FormsModule } from '@angular/forms';
 import { ForgotpasswordComponent } from './LOGIN/forgotpassword/forgotpassword.component';
 import { FooterComponent } from './footer/footer.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +29,13 @@ import { FooterComponent } from './footer/footer.component';
     RegisterComponent,
     ResetpasswordComponent,
     ForgotpasswordComponent,
-    FooterComponent
+    FooterComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
