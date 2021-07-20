@@ -73,18 +73,18 @@ footer{
      color:whitesmoke;
     width: 90px;
     text-align: center;
-     border-bottom:2px solid green;
+     border-bottom:2px solid #3f87a6;
  }
  .footer_info .link h4
  {
      color:whitesmoke;
     
-     border-bottom:2px solid green;
+     border-bottom:2px solid #3f87a6;
  }
  .footer_info .contact h4
  {
      color:whitesmoke;
-    border-bottom:2px solid green;
+    border-bottom:2px solid #3f87a6;
     
      
  }
@@ -110,7 +110,7 @@ footer{
      {
          width: 100%;
          align-items: center;
-         margin-right: 220px;
+         margin-right: 20px;
      }
  }
  @media screen and (max-width:730px)
@@ -169,6 +169,7 @@ footer{
         width: 100%;
         margin-left: 35px;
  }
+ 
  .link{
      margin-left:100px;
  }
@@ -183,4 +184,25 @@ footer{
  {
     padding-left: 0px;
  }
+ }
+ @media screen and (max-width:360px)
+ {
+    .footer_info .div_contact ul li
+    {
+        
+       text-align: left;
+       margin-right: 20px;
+ 
+    }
+    
+    .footer_info .contact h4 
+    {
+        
+     width: 90%;
+    }
+    .footer_info .about h4 
+    {
+        
+     width: 90%;
+    }
  }

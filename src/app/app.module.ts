@@ -16,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 import { ForgotpasswordComponent } from './LOGIN/forgotpassword/forgotpassword.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { BodyComponent } from './body/body.component';
     ResetpasswordComponent,
     ForgotpasswordComponent,
     FooterComponent,
-    BodyComponent
+    BodyComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
